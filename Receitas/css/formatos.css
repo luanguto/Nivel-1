@@ -1,0 +1,79 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*Cores*/
+
+:root {
+--cor-nav: #212529;
+--cor-background: #ffe08e;
+--cor-footer-texto: #c7c8c9;
+--cor-hover: #fcc2c5;
+
+}
+
+/*CSS*/
+
+nav {
+    height: 60px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: var(--cor-hover)!important;
+}
+
+main {
+    height: calc(100vh-100px);
+}
+
+/*Foi pedido para alterar a cor do background atraves do style, organizei aqui no CSS*/
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--cor-background);
+}
+
+.imagem-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.container_principal {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 10%;
+}
+
+.container_imagem {
+    width: 400px;
+}
+
+.container_texto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.display-1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.display-6 {
+    font-family: 'Pacifico', cursive;  
+}
+
+.texto-principal {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--cor-nav);
+    color: var(--cor-footer-texto);
+    height: 25px;
+}
